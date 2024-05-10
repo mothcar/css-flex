@@ -10,6 +10,8 @@
   height: 90vh;
   /* width: 100vw; */
   align-items:end;
+  flex-wrap: wrap;
+  align-content:flex-start;
 }
 
 .box {
