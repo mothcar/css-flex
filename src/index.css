@@ -1,11 +1,19 @@
+#root {
+  margin: 0 auto;
+} 
+
 .container {
   display: flex;
   /* flex-direction: column; */
-  justify-content:space-around;
+  justify-content:space-between;
+  border: 1px solid grey;
+  height: 90vh;
+  /* width: 100vw; */
+  align-items:end;
 }
 
 .box {
-  width: 150px;
+  width: 98vw;
   line-height: 150px;
   height: 150px;
   font-size: 4em;
