@@ -5,6 +5,11 @@ function App() {
       <div>
         <h1 className="text-3xl font-bold ">Hello world!</h1>
       </div>
+      <div className="fluid-container">
+        <input className="name" placeholder="name" />
+        <input className="pw" placeholder="password" />
+        <button className="submit">Submit</button>
+      </div>
       <div className="container">
         <div className="box bg-slate-600" id="box1">
           1

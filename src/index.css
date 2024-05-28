@@ -42,3 +42,24 @@
 #box5 {
   background-color: rgb(147, 57, 243);
 }
+
+.fluid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.name {
+  flex: 1 0 360px;
+  border: solid 1px red;
+}
+
+.pw {
+  flex: 1 0 360px;
+  border: solid 1px red;
+}
+
+.submit {
+  flex: 1 0 360px;
+  border: solid 1px red;
+}
